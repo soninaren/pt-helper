@@ -1,0 +1,13 @@
+.title{
+    font-size: 26px;
+    font-weight: normal;        
+    font-family: "Segoe UI Light","Segoe WP Light","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    padding-bottom: 10px;
+}
+
+.item{
+    font-family: "Segoe UI","Segoe WP","Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: normal;        
+    padding-left: 20px
+}

@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<div class="title" *ngFor="let todo of keys">
+  <label>{{todo}}</label>
+  <div class="item" *ngFor="let ex of resolvedList[todo].exercises">
+    <input type="checkbox">
+    <label>{{ex}}</label>
+  </div>
+</div>
